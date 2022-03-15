@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#board {    
+    background-color: #c7c3c7;
+}
+  
+  #player,
+  #object {
+    position: absolute;
+    transition: all 250ms;
+  }
+  
+  #player {
+    background-color: #FB7365 ;
+  }
+  
+  #object {
+    background-color: #999;
+  }
